@@ -1,0 +1,45 @@
+# NOTE: .gitignore is NOT a substitute for checking staged files.
+# Always run `git status` and `git diff --staged` before every commit.
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local secret / config files (never commit these)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*.gpg
+*.asc
+secrets*
+credentials*
+*.token
+*recovery-code*
+*seed*
+
+# Scans, exports and backups of sensitive material
+*.zip
+*.7z
+*.pdf
+*.heic
+*.jpg
+*.jpeg
+*.png
+*.csv
+*.bak
+
+# Local scratch notes
+scratch/
+private-notes/
